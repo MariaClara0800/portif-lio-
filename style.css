@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffeef2; /* fundo rosa claro */
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f48fb1; /* rosa pastel */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+.box {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(248, 143, 177, 0.2); /* sombra rosa suave */
+}
+
+h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid #f8bbd0; /* rosa claro */
+  padding-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  background: #fce4ec; /* rosa bem suave */
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.btn {
+  display: inline-block;
+  background: #d81b60; /* rosa mais forte */
+  color: white;
+  padding: 6px 12px;
+  margin-left: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #ad1457; /* rosa escuro */
+}
+
+footer {
+  background: #f48fb1; /* igual ao header */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
